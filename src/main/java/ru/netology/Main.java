@@ -25,7 +25,7 @@ public class Main {
         logger.log("Создаём и наполняем список");
         Random random = new Random();
         List<Integer> numbers = new ArrayList<>();
-        for (int i = 0; i <= size; i++) {
+        for (int i = 0; i < size; i++) {
             numbers.add(random.nextInt(maxValue));
         }
         System.out.print("Вот случайный список: ");
